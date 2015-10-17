@@ -1,0 +1,65 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+	height: 250px;
+	background: -webkit-linear-gradient(top, #353147, #fff);
+	text-align: center;
+}
+
+.nav i{
+	margin-top: 50px;
+	font-size: 5em;
+	color: #FFF;
+	margin-left: 140px;
+	margin-right: 140px;
+	padding: 20px;
+	border-radius: 25%;
+	transition: all 0.5s;
+}
+.activited{
+	background-color: white;
+	color: #353147!important;
+}
+
+.nav i:hover{
+	background-color: white;
+	color: #353147;
+
+}
+
+
+.personal img{
+	width: 200px;
+	height: 200px;
+	margin-left: 30%; 
+	margin-top: 20px;
+	border-radius: 100px;
+	-webkit-animation: fadein 1s; 
+	box-shadow: 2px 10px 15px black;
+
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.personal h1{
+	padding-top: 70px;
+	font-size: 70px;
+	margin-right: 12%;
+	font-family: 'Dancing Script', cursive;
+	-webkit-animation: fadein 1s; 
+}
+
+.personal p{
+	font-size: 25px;
+	font-family: Helvetica, sans-serif;
+	font-weight: 200;
+	margin-top: 50px;
+	-webkit-animation: fadein 2s; 
+}
+
+

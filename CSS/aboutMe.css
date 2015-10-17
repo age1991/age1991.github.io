@@ -1,0 +1,147 @@
+.list p{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px silver;
+}
+.list{
+	height: 100px;
+}
+
+.hob{
+	height: 450px;
+}
+.hob ul{
+	list-style: none;
+	margin: 0;
+  padding: 0;
+}
+
+.hob ul li img {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.hob ul li {
+  float: left;
+  margin: 0px;
+  padding: 0;
+  width: 25%;
+  overflow: hidden;
+  transform: perspective( 700px );
+  box-shadow: 1px 3px 8px black;
+  border-radius: 5px;
+  height: 350px;
+  transform: perspective( 700px ) rotateY( 20deg );
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.hob ul:hover li {
+  width: 12%;
+  transform: perspective( 700px ) rotateY( 50deg );
+}
+.hob ul:hover li:hover {
+  width: 64%;
+  transform: perspective( 700px ) rotateY( 0deg );
+  box-shadow: 1px 20px 30px black;
+}
+
+
+
+.divider{
+	margin: 0;
+	padding-top: 0;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+}
+
+.divider img{
+	  width: 100%;
+  height: 50px;
+
+}
+
+
+
+.Photo figcaption{
+	font-size: 20px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.Photo figure{
+	float: left;
+  position: relative;
+  background-color: #CCFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  margin: 15px;
+  box-shadow: 1px 2px 3px black;
+  transition: all 0.5s;
+}
+
+figure.pic1 {
+  -webkit-transform : rotate(-7deg);
+  z-index: 1;
+}
+
+figure.pic2 {
+  -webkit-transform : rotate(15deg);
+  z-index: 2;
+}
+
+figure.pic3 {
+  -webkit-transform : rotate(-15deg);
+  z-index: 1;
+}
+
+figure.pic4 {
+  -webkit-transform : rotate(10deg);
+  z-index:1;
+}
+
+figure.pic5 {
+  -webkit-transform : rotate(5deg);
+  z-index:1;
+}
+
+figure.pic6 {
+  -webkit-transform : rotate(8deg);
+  z-index:1;
+}
+
+figure.pic7 {
+  -webkit-transform : rotate(-12deg);
+  z-index:1;
+}
+
+
+
+.gallery{
+	margin-left: 25px;
+}
+
+.Photo figure:hover {
+  box-shadow: 5px 10px 100px black;
+  -webkit-transform: scale(1.2,1.2);
+  z-index: 20;
+}
+
+.Photo img{
+	height: 175px;
+
+}
+
+.show{
+	position: fixed!important;
+  top: 35%;
+  left: 40%;
+	-webkit-transform: scale(3,3)!important;
+	z-index: 20!important;
+}
