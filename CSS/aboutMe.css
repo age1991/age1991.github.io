@@ -2,11 +2,14 @@
   text-align: center;
   font-family: 'Dancing Script', cursive;
   font-size: 30px;
-  text-shadow: 1px 1px 1px silver;
 }
 .list{
 	height: 100px;
 }
+
+/*#rekt{
+  opacity: 0;
+}*/
 
 .hob{
 	height: 450px;
@@ -41,6 +44,49 @@
   transition: all .5s ease;
 }
 
+#hovPics1 p{
+  top: 80%;
+  left: 75px;
+  color: white;
+  text-shadow:1px 3px 10px silver;
+}
+#hovPics2 p{
+  top: 15%;
+  left: 390px;
+  color:black;
+  text-shadow:1px 3px 10px black;
+}
+#hovPics3 p{
+  top: 5%;
+  left: 30px;
+  color: white;
+  text-shadow:1px 3px 10px silver;
+}
+#hovPics4 p{
+  top: 40%;
+  left: 370px;
+  color: black;
+  text-shadow:1px 3px 10px black;
+  width: 200px;
+}
+
+.hob p{
+  width: 600px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  font-family: 'Dancing Script', cursive;
+  font-size: 27px;
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+
+.hob li:hover p{
+  opacity: 1;
+}
+
+
 .hob ul:hover li {
   width: 12%;
   transform: perspective( 700px ) rotateY( 50deg );
@@ -67,7 +113,9 @@
 
 }
 
-
+.Photo {
+  height: 700px;
+}
 
 .Photo figcaption{
 	font-size: 20px;
@@ -122,9 +170,9 @@ figure.pic7 {
 }
 
 
-
 .gallery{
 	margin-left: 25px;
+
 }
 
 .Photo figure:hover {
@@ -141,7 +189,8 @@ figure.pic7 {
 .show{
 	position: fixed!important;
   top: 35%;
-  left: 40%;
+  left: 42%;
 	-webkit-transform: scale(3,3)!important;
 	z-index: 20!important;
+
 }

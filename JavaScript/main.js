@@ -15,26 +15,6 @@ document.body.appendChild(myOverlay);
         myOverlay.style.left = window.pageXOffset + 'px';
         myOverlay.style.zIndex = 999;
         //wait until the image has loaded
-        $('.pics').load(function() {
-
-            //Resize if taller
-            if (this.height > window.innerHeight) {
-                this.ratio = window.innerHeight / this.height;
-                this.height = this.height * this.ratio;
-                this.width = this.width * this.ratio;
-            }
-
-            //Resize if wider
-            if (this.width > window.innerWidth) {
-                this.ratio = window.innerWidth / this.width;
-                this.height = this.height * this.ratio;
-                this.width = this.width * this.ratio;
-            }
-
-            centerImage(this);
-            myOverlay.appendChild(largeImage);
-
-        }); //image has loaded
 
         $('#overlay').click(function() {
             $(this).remove();
@@ -60,5 +40,16 @@ document.body.appendChild(myOverlay);
         }, false);
 
     }); // target is an image
+// $('#hovPics1').hover(function(){
+//     var r =  $(this).children('p');
+//     setTimeout(function(){r.text("<<Pulp Fiction>>").css({'text-shadow':'1px 2px 3px white','font-size':'35px'});},2000);
+//     $(this).children('p').unbind('mouseenter mouseleave');
+
+//     })
+
+// $('#rekt').hover(function(){
+//     setTimeout(function(){$('#rekt').text("sssssss");},2000);
+
+// })
 
 });
