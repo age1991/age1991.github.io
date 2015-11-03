@@ -33,10 +33,14 @@
   padding: 0;
   width: 25%;
   overflow: hidden;
+  -webkit-transform: perspective( 700px );
+  -moz-transform: perspective( 700px );
   transform: perspective( 700px );
   box-shadow: 1px 3px 8px black;
   border-radius: 5px;
   height: 350px;
+  -webkit-transform: perspective( 700px ) rotateY( 20deg );
+  -moz-transform: perspective( 700px ) rotateY( 20deg );
   transform: perspective( 700px ) rotateY( 20deg );
   -webkit-transition: all .5s ease;
   -moz-transition: all .5s ease;
@@ -89,10 +93,14 @@
 
 .hob ul:hover li {
   width: 12%;
+  -webkit-transform: perspective( 700px ) rotateY( 50deg );
+  -moz-transform: perspective( 700px ) rotateY( 50deg );
   transform: perspective( 700px ) rotateY( 50deg );
 }
 .hob ul:hover li:hover {
   width: 64%;
+  -webkit-transform: perspective( 700px ) rotateY( 0deg );
+  -moz-transform: perspective( 700px ) rotateY( 0deg );
   transform: perspective( 700px ) rotateY( 0deg );
   box-shadow: 1px 20px 30px black;
 }
@@ -131,41 +139,49 @@
   padding: 10px;
   margin: 15px;
   box-shadow: 1px 2px 3px black;
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
 figure.pic1 {
   -webkit-transform : rotate(-7deg);
+  transform : rotate(-7deg);
   z-index: 1;
 }
 
 figure.pic2 {
   -webkit-transform : rotate(15deg);
+  transform : rotate(15deg);
   z-index: 2;
 }
 
 figure.pic3 {
   -webkit-transform : rotate(-15deg);
+  transform : rotate(-15deg);
   z-index: 1;
 }
 
 figure.pic4 {
   -webkit-transform : rotate(10deg);
+  transform : rotate(10deg);
   z-index:1;
 }
 
 figure.pic5 {
   -webkit-transform : rotate(5deg);
+  transform : rotate(5deg);
   z-index:1;
 }
 
 figure.pic6 {
   -webkit-transform : rotate(8deg);
+  transform : rotate(8deg);
   z-index:1;
 }
 
 figure.pic7 {
   -webkit-transform : rotate(-12deg);
+  transform : rotate(-12deg);
   z-index:1;
 }
 
@@ -178,6 +194,7 @@ figure.pic7 {
 .Photo figure:hover {
   box-shadow: 5px 10px 100px black;
   -webkit-transform: scale(1.2,1.2);
+  transform: scale(1.2,1.2);
   z-index: 20;
 }
 
@@ -191,6 +208,7 @@ figure.pic7 {
   top: 35%;
   left: 42%;
 	-webkit-transform: scale(3,3)!important;
+  transform: scale(3,3)!important;
 	z-index: 20!important;
 
 }
