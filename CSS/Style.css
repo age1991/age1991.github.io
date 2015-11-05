@@ -108,7 +108,6 @@ body, html {
 	}
 }
 
-}
 @media screen and (max-width: 650px) {
   .nav i {
     font-size: 2em;
@@ -141,6 +140,7 @@ body, html {
 		font-size: 12px;
 	}
 }
+
 @media only screen and (max-width: 375px) {
    .nav i {
     font-size: 2em;
@@ -170,7 +170,7 @@ body, html {
 		padding: 5px;
 	}
 	.Photo figcaption{
-		font-size: 10px;
+		font-size: 8px;
 	}
 
 }
