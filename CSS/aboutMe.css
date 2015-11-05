@@ -12,7 +12,7 @@
 }*/
 
 .hob{
-	height: 450px;
+	height: 350px;
 }
 .hob ul{
 	list-style: none;
@@ -50,25 +50,25 @@
 
 #hovPics1 p{
   top: 80%;
-  left: 75px;
+  left: 10%;
   color: white;
   text-shadow:1px 3px 10px silver;
 }
 #hovPics2 p{
   top: 15%;
-  left: 390px;
+  left: 65%;
   color:black;
   text-shadow:1px 3px 10px black;
 }
 #hovPics3 p{
   top: 5%;
-  left: 30px;
+  left: 5%;
   color: white;
   text-shadow:1px 3px 10px silver;
 }
 #hovPics4 p{
   top: 40%;
-  left: 370px;
+  left: 65%;
   color: black;
   text-shadow:1px 3px 10px black;
   width: 200px;
@@ -116,7 +116,7 @@
 }
 
 .divider img{
-	  width: 100%;
+	width: 100%;
   height: 50px;
 
 }
@@ -212,3 +212,62 @@ figure.pic7 {
 	z-index: 20!important;
 
 }
+
+@media only screen and (max-width: 850px) {
+  .nav i {
+    font-size: 3em;
+    padding: 15px;
+  }
+  .nav {
+    height: 180px;
+  }
+  .hob ul li {
+    height: 260px;
+  }
+  .hob p {
+    font-size: 20px;
+    width: 385px;
+  }
+  .hob{
+    height: 300px;
+  }
+  #hovPics4 p{
+    width: 120px;
+  }
+
+}
+@media screen and (max-width: 650px) {
+  .nav i {
+    font-size: 2em;
+    padding: 12px;
+    margin-top: 40px;
+  }
+  .nav {
+    height: 140px;
+  }
+  .hob ul li {
+    height: 195px;
+  }
+  .hob p {
+    font-size: 15px;
+    width: 300px;
+  }
+  #hovPics4 p{
+    width: 100px;
+  }
+  .hob{
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 375px) {
+   .nav i {
+    font-size: 2em;
+    padding: 8px;
+    margin-top: 30px;
+  }
+
+  }
+
+
+
+

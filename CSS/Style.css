@@ -75,3 +75,111 @@ body, html {
 }
 
 
+
+@media only screen and (max-width: 850px) {
+  .nav i {
+    font-size: 3em;
+    padding: 15px;
+  }
+  .nav {
+    height: 180px;
+  }
+  .hob ul li {
+    height: 260px;
+  }
+  .hob p {
+    font-size: 20px;
+    width: 385px;
+  }
+  .hob{
+    height: 300px;
+  }
+  #hovPics4 p{
+    width: 120px;
+  }
+	.Photo img{
+		height: 145px;
+	}
+	.Photo figure{
+		padding: 8px;
+	}
+	.Photo figcaption{
+		font-size: 16px;
+	}
+}
+
+}
+@media screen and (max-width: 650px) {
+  .nav i {
+    font-size: 2em;
+    padding: 12px;
+    margin-top: 40px;
+  }
+  .nav {
+    height: 140px;
+  }
+  .hob ul li {
+    height: 195px;
+  }
+  .hob p {
+    font-size: 15px;
+    width: 300px;
+  }
+  #hovPics4 p{
+    width: 100px;
+  }
+  .hob{
+    height: 250px;
+  }
+  .Photo img{
+		height: 105px;
+	}
+	.Photo figure{
+		padding: 7px;
+	}
+	.Photo figcaption{
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width: 375px) {
+   .nav i {
+    font-size: 2em;
+    padding: 8px;
+    margin-top: 30px;
+  }
+  .nav {
+    height: 100px;
+  }
+  .hob ul li {
+    height: 125px;
+  }
+  .hob p {
+    font-size: 10px;
+    width: 200px;
+  }
+  #hovPics4 p{
+    width: 60px;
+  }
+  .hob{
+    height: 200px;
+  }
+  .Photo img{
+		height: 70px;
+	}
+	.Photo figure{
+		padding: 5px;
+	}
+	.Photo figcaption{
+		font-size: 10px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
