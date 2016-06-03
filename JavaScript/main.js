@@ -1,4 +1,22 @@
 $(document).ready(function(){
+$(window).on('scroll', function(){
+        var scrollPos = $(document).scrollTop();
+        var turn = 220 - scrollPos;
+        var font = 80 - scrollPos/3;
+        var margin = 45 - scrollPos/5;
+        var padding = 20 - scrollPos/13;
+        if (scrollPos < 160) {
+            $('.nav i').css({'font-size':font,'margin-top':margin, 'padding':padding, });
+            $('.nav').css({'height':turn,'background':'','box-shadow':''});
+
+        }
+        else{
+            $('.nav').css({'background': 'black','box-shadow':'5px 10px 100px black'});
+        };
+        
+    });
+
+
 $('.pics').click(function(){
 var x = $(this);
 x.addClass("show");
@@ -39,17 +57,7 @@ document.body.appendChild(myOverlay);
             }
         }, false);
 
-    }); // target is an image
-// $('#hovPics1').hover(function(){
-//     var r =  $(this).children('p');
-//     setTimeout(function(){r.text("<<Pulp Fiction>>").css({'text-shadow':'1px 2px 3px white','font-size':'35px'});},2000);
-//     $(this).children('p').unbind('mouseenter mouseleave');
+    }); 
 
-//     })
-
-// $('#rekt').hover(function(){
-//     setTimeout(function(){$('#rekt').text("sssssss");},2000);
-
-// })
 
 });

@@ -4,11 +4,16 @@ body, html {
 }
 
 .nav {
+  top: 0;
+  position: fixed;
+  width: 100%;
 	height: 240px;
 	background: -webkit-linear-gradient(top, #353147, #fff);
 	background: -moz-linear-gradient(top, #353147, #fff);
 	background: linear-gradient(top, #353147, #fff);
 	text-align: center;
+  transition: background 0.5s;
+  z-index: 10;
 }
 
 .nav i{
@@ -19,7 +24,7 @@ body, html {
 	margin-right: 10%;
 	padding: 20px;
 	border-radius: 25%;
-	transition: all 0.5s;
+	transition: background 0.5s;
 }
 .activited{
 	background-color: white;
@@ -32,6 +37,9 @@ body, html {
 
 }
 
+/*.personal {
+  margin-top: 240px;
+}*/
 
 .personal img{
 	background-color: silver;
