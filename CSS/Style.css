@@ -75,7 +75,7 @@ body, html {
 
 .personal p{
 	font-size: 25px;
-	font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
+	font-family: Avenir Next, Helvetica, sans-serif;
 	font-weight: 400;
 	margin-top: 50px;
 	-webkit-animation: fadein 2s; 
