@@ -2,10 +2,13 @@ $(document).ready(function(){
 	var done = false;
 	$('.invoker img').click(function() {
 		if (!done) {
-			$(this).css('border-radius','50%');
+			$(this).css({'border-radius':'50%','transform':'rotate(360deg)'});
 		}
 		else{
-			$(this).css('border-radius','5%');
+			setTimeout( function(){
+    			$('.invoker img').css('border-radius','5%');
+      			 },800);
+			$(this).css('transform','rotate(-360deg)');
 		};
 		var input = new Array;
 		var i = 0; 	
