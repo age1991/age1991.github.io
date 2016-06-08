@@ -1,0 +1,34 @@
+.demos{
+	font-family: Avenir Next, Helvetica, sans-serif;
+}
+
+.demos p{
+	text-align: center;
+	font-size: 2.7em;
+	font-style: italic;
+}
+.invoker {
+	width: 100%;
+	height: 360px;
+	border-bottom: 1px solid silver;
+}
+.invoker img{
+	float: left;
+	width: 43%;
+	opacity: 0.7;
+	border-radius: 5%;
+	transition: 0.2s;
+}
+.invoker p{
+	font-size: 2em;
+	margin-top: 5%;
+	margin-left: 50%;
+}
+.invoker img:hover{
+	opacity: 1;
+	cursor:pointer;
+}
+.lasto{
+	text-align: center;
+	font-size: 2.0em;
+}
