@@ -13,8 +13,9 @@
 	border-bottom: 1px solid silver;
 }
 .invoker img{
+	margin-left: 5%;
 	float: left;
-	width: 43%;
+	width: 35%;
 	opacity: 0.7;
 	border-radius: 5%;
 	transition: 0.2s;
