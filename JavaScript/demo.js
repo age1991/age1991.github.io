@@ -17,7 +17,7 @@ $(document).ready(function(){
 	       var sunstrike = new Audio('https://hydra-media.cursecdn.com/dota2.gamepedia.com/3/3f/Invo_ability_sunstrike_04.mp3');//eee 303
 	       var blast = new Audio('https://hydra-media.cursecdn.com/dota2.gamepedia.com/2/2c/Invo_ability_deafeningblast_02.mp3');//qwe 333
 	       var meteor = new Audio('https://hydra-media.cursecdn.com/dota2.gamepedia.com/4/48/Invo_ability_chaosmeteor_04.mp3');//eew 321
-	       var spirit = new Audio('https://hydra-media.cursecdn.com/dota2.gamepedia.com/2/2a/Invo_ability_forgespirit_04.mp3');//eeq 325
+	       var spirit = new Audio('https://hydra-media.cursecdn.com/dota2.gamepedia.com/2/2a/Invo_ability_forgespirit_04.mp3');//eeq 315
 	       var alacrity = new Audio('https://hydra-media.cursecdn.com/dota2.gamepedia.com/0/0f/Invo_ability_alacrity_05.mp3');//wwe 339
 	       var tornado = new Audio('https://hydra-media.cursecdn.com/dota2.gamepedia.com/2/2a/Invo_ability_tornado_04.mp3');//wwq 351
 	       var emp = new Audio('https://hydra-media.cursecdn.com/dota2.gamepedia.com/0/03/Invo_ability_emp_07.mp3');//www 357
@@ -49,7 +49,7 @@ $(document).ready(function(){
 		       			case 321:
 		       			meteor.play();
 		       			break;
-		       			case 325:
+		       			case 315:
 		       			spirit.play();
 		       			break;
 		       			case 339:

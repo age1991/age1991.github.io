@@ -22,7 +22,7 @@
 }
 .invoker p{
 	font-size: 2em;
-	margin-top: 5%;
+	margin-top: 10%;
 	margin-left: 50%;
 }
 .invoker img:hover{
@@ -30,6 +30,7 @@
 	cursor:pointer;
 }
 .lasto{
+	height: 400px;
 	text-align: center;
 	font-size: 2.0em;
 }
