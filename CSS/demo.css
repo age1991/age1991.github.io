@@ -12,7 +12,7 @@
 	height: 360px;
 	border-bottom: 1px solid silver;
 }
-.invoker img{
+.iconinv{
 	margin-left: 5%;
 	float: left;
 	width: 35%;
@@ -20,6 +20,16 @@
 	border-radius: 5%;
 	transition: transform 1s, opacity 0.2s, border-radius 0.3s;
 }
+
+.elements{
+	margin-left: 55%;
+}
+.elements img{
+	margin-left: 10%;
+	border-radius: 50%;
+/*	transition: all 0.5s;*/
+}
+
 .invoker p{
 	font-size: 2em;
 	margin-top: 10%;

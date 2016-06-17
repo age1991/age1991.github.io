@@ -34,6 +34,70 @@ $(document).ready(function(){
 	       	if (key == 113 || key == 119 || key == 101) {
 	       		input[i] = key;
 	       		i++;
+   	       		switch(input[i-1]){
+       				case 113:
+       				$('#e').fadeOut(function() {
+       					$(this).attr('src','Image/q.png').fadeIn(50);
+       				});
+       				break;
+       				case 119:
+       				$('#e').fadeOut(function() {
+       					$(this).attr('src','Image/w.png').fadeIn(50);
+       				});
+       				break;
+       				case 101:
+       				$('#e').fadeOut(function() {
+       					$(this).attr('src','Image/e.png').fadeIn(50);
+       				});
+       				break;
+       				default:
+		       		$('#e').fadeOut(function() {
+       					$(this).attr('src','').fadeIn(50);
+       				});
+       			}
+       			switch(input[i-2]){
+       				case 113:
+       				$('#w').fadeOut(function() {
+       					$(this).attr('src','Image/q.png').fadeIn(50);
+       				});
+       				break;
+       				case 119:
+       				$('#w').fadeOut(function() {
+       					$(this).attr('src','Image/w.png').fadeIn(50);
+       				});
+       				break;
+       				case 101:
+       				$('#w').fadeOut(function() {
+       					$(this).attr('src','Image/e.png').fadeIn(50);
+       				});
+       				break;
+       				default:
+		       		$('#w').fadeOut(function() {
+       					$(this).attr('src','').fadeIn(50);
+       				});
+       			}
+       			switch(input[i-3]){
+       				case 113:
+       				$('#q').fadeOut(function() {
+       					$(this).attr('src','Image/q.png').fadeIn(50);
+       				});
+       				break;
+       				case 119:
+       				$('#q').fadeOut(function() {
+       					$(this).attr('src','Image/w.png').fadeIn(50);
+       				});
+       				break;
+       				case 101:
+       				$('#q').fadeOut(function() {
+       					$(this).attr('src','Image/e.png').fadeIn(50);
+       				});
+       				break;
+       				default:
+		       		$('#q').fadeOut(function() {
+       					$(this).attr('src','').fadeIn(50);
+       				});
+       			}
+
 	       	} 
 	      	else if(key == 114 && done){
 		       	var lg = input.length;
@@ -83,6 +147,9 @@ $(document).ready(function(){
 
 		       	input.length = 0;
 		       	i = 0;
+		       	$('.elements img').fadeOut(function() {
+       					$(this).attr('src','').fadeIn(50);
+       			});
 
 		    };
 		});
